@@ -1,0 +1,22 @@
+{
+  "configurations": [
+    {
+      "type": "lldb",
+      "request": "launch",
+      "name": "Debug 100-days-of-swiftui",
+      "program": "${workspaceFolder:100-days-of-swiftui}/.build/debug/100-days-of-swiftui",
+      "args": [],
+      "cwd": "${workspaceFolder:100-days-of-swiftui}",
+      "preLaunchTask": "swift: Build Debug 100-days-of-swiftui"
+    },
+    {
+      "type": "lldb",
+      "request": "launch",
+      "name": "Release 100-days-of-swiftui",
+      "program": "${workspaceFolder:100-days-of-swiftui}/.build/release/100-days-of-swiftui",
+      "args": [],
+      "cwd": "${workspaceFolder:100-days-of-swiftui}",
+      "preLaunchTask": "swift: Build Release 100-days-of-swiftui"
+    }
+  ]
+}
