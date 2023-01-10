@@ -3,20 +3,38 @@
     {
       "type": "lldb",
       "request": "launch",
-      "name": "Debug 100-days-of-swiftui",
-      "program": "${workspaceFolder:100-days-of-swiftui}/.build/debug/100-days-of-swiftui",
+      "name": "Debug Checkpoint2",
+      "program": "${workspaceFolder:100-days-of-swiftui}/.build/debug/Checkpoint2",
       "args": [],
       "cwd": "${workspaceFolder:100-days-of-swiftui}",
-      "preLaunchTask": "swift: Build Debug 100-days-of-swiftui"
+      "preLaunchTask": "swift: Build Debug Checkpoint2"
     },
     {
       "type": "lldb",
       "request": "launch",
-      "name": "Release 100-days-of-swiftui",
-      "program": "${workspaceFolder:100-days-of-swiftui}/.build/release/100-days-of-swiftui",
+      "name": "Release Checkpoint2",
+      "program": "${workspaceFolder:100-days-of-swiftui}/.build/release/Checkpoint2",
       "args": [],
       "cwd": "${workspaceFolder:100-days-of-swiftui}",
-      "preLaunchTask": "swift: Build Release 100-days-of-swiftui"
+      "preLaunchTask": "swift: Build Release Checkpoint2"
+    },
+    {
+      "type": "lldb",
+      "request": "launch",
+      "name": "Debug Checkpoint1",
+      "program": "${workspaceFolder:100-days-of-swiftui}/.build/debug/Checkpoint1",
+      "args": [],
+      "cwd": "${workspaceFolder:100-days-of-swiftui}",
+      "preLaunchTask": "swift: Build Debug Checkpoint1"
+    },
+    {
+      "type": "lldb",
+      "request": "launch",
+      "name": "Release Checkpoint1",
+      "program": "${workspaceFolder:100-days-of-swiftui}/.build/release/Checkpoint1",
+      "args": [],
+      "cwd": "${workspaceFolder:100-days-of-swiftui}",
+      "preLaunchTask": "swift: Build Release Checkpoint1"
     }
   ]
 }
