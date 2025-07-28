@@ -1,7 +1,4 @@
-//
-// 100 Days of SwiftUI
-// Checkpoint 2
-//
+import Cocoa
 
 // Names of all Jojo's.
 let jojoNames = ["Jonathan", "Joseph", "Jotaro", "Josuke", "Giorno", "Jolyne", "Johnny", "Josuke"]
