@@ -6,12 +6,11 @@ case noRoot
 }
 
 func internetSquareRoot(of number: Int) throws -> Int {
-    let range = 1...1_000
-    guard range.contains(number) else {
+    guard (1...10_000).contains(number) else {
         throw IntegerSquareRootError.outOfBounds
     }
     
-    for i in range {
+    for i in 1...100 {
         if i * i == number {
             return i
         }
@@ -40,7 +39,7 @@ do {
 }
 
 do {
-    print(try internetSquareRoot(of: 1_000_001)) // should fail
+    print(try internetSquareRoot(of: 10_001)) // should fail
 } catch {
     print("Error:", error) // outOfBounds
 }
